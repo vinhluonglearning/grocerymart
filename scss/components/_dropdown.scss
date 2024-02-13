@@ -10,7 +10,6 @@
 
   @include abstracts.breakpoint(lg) {
     position: initial;
-    display: block;
     padding-top: 0;
   }
 
@@ -70,7 +69,8 @@
   gap: 14px;
 
   + .menu-column {
-    margin-top: var(--inner-padding);
+    // margin-top: var(--inner-padding);
+    margin-top: 20px;
   }
 
   @include abstracts.breakpoint(lg) {
