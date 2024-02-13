@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,7 +25,26 @@
       load("#header", "./templates/header.html");
     </script>
     <div class="container">
-      <h1>Home page</h1>
+      <!-- Slideshow -->
+      <div class="slideshow">
+        <div class="slideshow__inner">
+          <div class="slideshow__item">
+            <img src="./assets/img/slideshow/item-1.png" alt="" class="slideshow__img" />
+          </div>
+          <div class="slideshow__item">
+            <img src="./assets/img/slideshow/item-1.png" alt="" class="slideshow__img" />
+          </div>
+          <div class="slideshow__item">
+            <img src="./assets/img/slideshow/item-1.png" alt="" class="slideshow__img" />
+          </div>
+        </div>
+        <div class="slideshow__page">
+          <span class="slideshow__num">1</span>
+          <span class="slideshow__slider"></span>
+          <span class="slideshow__num">5</span>
+        </div>
+      </div>
+      <!-- Footer -->
       <footer id="footer"></footer>
       <script>
         load("#footer", "./templates/footer.html");
