@@ -124,7 +124,6 @@ $gutters: (
   @include make-media-query($dimension) {
     .container {
       max-width: $max-width;
-      @debug $max-width;
     }
     @include make-row-columns($infix);
 
