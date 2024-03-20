@@ -1,4 +1,4 @@
-@use "../abstracts";
+@use '../abstracts';
 
 .filter-wrap {
   position: relative;
@@ -80,7 +80,7 @@
 
       &::before,
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         top: 50%;
         translate: 0 -50%;
@@ -149,7 +149,7 @@
       }
 
       @include abstracts.screen(sm) {
-        font-size: 1.6rem;
+        font-size: 1.6rem !important;
       }
     }
 
